@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Roboto, san-serif;
+}
+
+ul {
+	height: 135px;
+	list-style-type: none;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li {
+	width: 100%;
+	height: 100%;
+	padding: 40px 50px;
+	color: #8e8e8e;
+	text-transform: uppercase;
+	transition: all 0.5s;
+	border: 1px solid rgba(221, 221, 221, 0.7);
+}
+
+ul li:not(:last-child) {
+	border-right: 0;
+}
+
+ul li img {
+	width: 32px;
+}
+
+li:hover {
+	border-top: 2px solid #8cdc52;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	color: #8cdc52;
+}
