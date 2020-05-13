@@ -1,0 +1,36 @@
+.form-group {
+	width: 400px;
+	margin: 100px auto;
+	position: relative;
+}
+
+.form-group input {
+	width: 100%;
+	padding: 15px;
+	border: 1px solid rgba(124, 146, 205, 0.7);
+	border-radius: 50px;
+	outline: none;
+}
+
+.form-group .icon-search {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	border-radius: 100%;
+	background-color: #eee;
+}
+
+.form-group .icon-search.bg-purple {
+	background-color: #4080ff;
+}
+
+.form-group .icon-search img {
+	width: 20px;
+	transform: rotate(90deg) translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	right: 50%;
+}

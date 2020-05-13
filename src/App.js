@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import './App.css';
 
-import Notification from './components/notification/Notification';
+import SearchBox from './components/search/SearchBox';
 
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<Notification hasUnread={true} />
+				<SearchBox />
 			</div>
 		);
 	}
