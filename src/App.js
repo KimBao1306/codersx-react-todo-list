@@ -1,16 +1,21 @@
 import React, {Component} from 'react';
-// import './App.css';
-import RecommendedFriends from './components/recommended/RecommendedFriends.js';
+import './App.css';
+
+import Table from './components/table/Table';
 
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<RecommendedFriends
-					friends={[
-						{img: 'https://picsum.photos/50/50', name: 'Bao Le'},
-						{img: 'https://picsum.photos/50/50', name: 'Thinh Pham'},
-						{img: 'https://picsum.photos/50/50', name: 'Bao Huynh'},
+				<Table
+					users={[
+						{first: 'Bao', last: 'Le', handle: '@ble'},
+						{first: 'Bao', last: 'Le', handle: '@ble'},
+						{first: 'Bao', last: 'Le', handle: '@ble'},
+						{first: 'Bao', last: 'Le', handle: '@ble'},
+						{first: 'Bao', last: 'Le', handle: '@ble'},
+						{first: 'Bao', last: 'Le', handle: '@ble'},
+						{first: 'Bao', last: 'Le', handle: '@ble'},
 					]}
 				/>
 			</div>
