@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+header ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	padding: 25px 20px;
+}
+
+header ul li:first-child {
+	font-weight: 500;
+	width: 80px;
+}
+
+header ul li:first-child a {
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul li:nth-child(2) img {
+	width: 200px;
+}
+
+header ul li:last-child a {
+	border: 1px solid #555555;
+	color: #555555;
+	padding: 5px 10px;
+}
