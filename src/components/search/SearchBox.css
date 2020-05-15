@@ -27,6 +27,10 @@
 	background-color: #4080ff;
 }
 
+.form-group .err-border {
+	border-color: #f00;
+}
+
 .form-group .icon-search img {
 	width: 20px;
 	transform: rotate(90deg) translate(-50%, -50%);
