@@ -1,14 +1,18 @@
 import React, {Component} from 'react';
 import './App.css';
 
-import SearchBox from './components/search/SearchBox';
+import TodoList from './components/todo/TodoList';
 
 class App extends Component {
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
 		return (
-			<div className="App">
-				<SearchBox />
-			</div>
+			// <div className="App">
+			<TodoList />
+			// </div>
 		);
 	}
 }
