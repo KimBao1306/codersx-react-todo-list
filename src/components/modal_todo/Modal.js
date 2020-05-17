@@ -4,7 +4,7 @@ import './Modal.css';
 export default function ModalAddItem(props) {
 	const {eventCloseModal, eventAddItem, eventGetValueItem} = props;
 	return (
-		<div className="container" onClick={eventCloseModal} onKeyUp={eventAddItem}>
+		<div className="container" onClick={eventCloseModal}>
 			<div className="modal">
 				<h3 className="modal-title">Add new item</h3>
 				<div className="form-group">
@@ -13,6 +13,7 @@ export default function ModalAddItem(props) {
 						name="item"
 						placeholder="Add your new to do"
 						onChange={eventGetValueItem}
+						onKeyUp={eventAddItem}
 					/>
 				</div>
 				<div className="form-btn">
