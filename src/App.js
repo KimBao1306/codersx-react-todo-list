@@ -1,20 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
 
-import TodoList from './components/todo/TodoList';
+import BookList from './components/book/BookList';
 
-class App extends Component {
-	constructor(props) {
-		super(props);
-	}
-
-	render() {
-		return (
-			// <div className="App">
-			<TodoList />
-			// </div>
-		);
-	}
+function App() {
+	return (
+		// <div className="App">
+		<BookList />
+		// </div>
+	);
 }
 
 export default App;
