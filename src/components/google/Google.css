@@ -1,0 +1,48 @@
+.gg-section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.gg-section .logo {
+	margin-bottom: 20px;
+}
+.form-group {
+	width: 500px;
+	position: relative;
+}
+
+.form-group.focus {
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.form-group input {
+	width: 100%;
+	padding: 15px 0 15px 40px;
+	border: 1px solid rgba(124, 146, 205, 0.7);
+	border-radius: 50px;
+	outline: none;
+	transition: box-shadow 0.3s;
+}
+
+.form-group input.focus {
+	box-shadow: 0 1px 16px 0 rgba(32, 33, 36, 0.28);
+}
+
+.form-group .icon {
+	width: 20px;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+}
+
+.form-group .icon:first-child img {
+	width: 100%;
+}
+
+.form-group .icon:last-child {
+	left: 92%;
+}
