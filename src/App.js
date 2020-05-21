@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import BookList from './components/book/BookList';
+import BookList from './components/book-custom/BookList';
 
 function App() {
 	return (
